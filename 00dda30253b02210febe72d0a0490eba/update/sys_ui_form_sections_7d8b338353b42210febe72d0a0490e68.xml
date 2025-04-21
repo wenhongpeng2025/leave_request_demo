@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7d8b338353b42210febe72d0a0490e68" sys_domain="global" table="x_1639417_leave_re_leave_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-14 05:37:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca8b338353b42210febe72d0a0490e6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1639417_leave_re_leave_request" name="x_1639417_leave_re_leave_request" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">7d8b338353b42210febe72d0a0490e68</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1639417_leave_re_leave_request" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">358b338353b42210febe72d0a0490e66</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-14 05:37:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-14 05:37:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>868b338353b42210febe72d0a0490e6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1639417_leave_re_leave_request" name="x_1639417_leave_re_leave_request" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">7d8b338353b42210febe72d0a0490e68</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1639417_leave_re_leave_request" sys_domain="global" view="5bd975bd0fa03200cd674f8ce1050e7f">f98b338353b42210febe72d0a0490e67</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-14 05:37:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1639417_leave_re_leave_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-14 05:37:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d8b338353b42210febe72d0a0490e68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1639417_leave_re_leave_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Leave Request" source="x_1639417_leave_re">00dda30253b02210febe72d0a0490eba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Request">00dda30253b02210febe72d0a0490eba</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7d8b338353b42210febe72d0a0490e68</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-14 05:37:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="User" name="User">5bd975bd0fa03200cd674f8ce1050e7f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

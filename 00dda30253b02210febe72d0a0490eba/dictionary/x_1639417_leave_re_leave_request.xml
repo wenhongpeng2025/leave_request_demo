@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="79d07f8253b02210febe72d0a0490e66" label="Leave Request" max_length="40" name="x_1639417_leave_re_leave_request" type="collection">
+        <element label="Days" max_length="40" name="days" read_only="true" type="integer"/>
+        <element display="true" label="Number" max_length="40" name="number" type="integer"/>
+        <element label="End Date " mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4000" name="work_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Start Date " mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="3" default="1" label="Status " max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="Leave Type " max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="sick leave" value="2"/>
+                <element inactive_on_update="false" label="personal leave" value="3"/>
+                <element inactive_on_update="false" label="annual leave" value="1"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Employee" max_length="4000" name="employee" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

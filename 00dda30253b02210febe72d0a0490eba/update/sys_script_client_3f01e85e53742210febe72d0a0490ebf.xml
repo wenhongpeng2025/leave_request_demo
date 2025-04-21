@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Leave Request onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Automatically populate the currently logged - in user into the employee field
+    if (!g_form.getValue('employee')) {
+        g_form.setValue('employee', g_user.getUserID());
+        g_form.setDisplayValue('u_employee', g_user.getUserName());
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 05:52:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f01e85e53742210febe72d0a0490ebf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Leave Request onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Leave Request" source="x_1639417_leave_re">00dda30253b02210febe72d0a0490eba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request">00dda30253b02210febe72d0a0490eba</sys_scope>
+        <sys_update_name>sys_script_client_3f01e85e53742210febe72d0a0490ebf</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2025-04-14 05:30:18</sys_updated_on>
+        <table>x_1639417_leave_re_leave_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
